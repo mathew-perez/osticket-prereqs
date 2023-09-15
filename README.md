@@ -41,7 +41,7 @@ The first step is to install Internet Information Services (IIS) in Windows. Go 
 
 
 <h3>Step 2: Install PHP Installer with IIS </h3> 
-The second step is to PHP Manager with IIS.
+The second step is to PHP Manager with IIS and all other neccesary files to run osTicket. 
 
 <p></p>
 
@@ -57,10 +57,20 @@ Download PHP Mananger and rewrite module from the google drive. Then open up the
 
 ![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/68f6d35a-67e8-4a60-92fe-74d1b7410277)
 
+Create the directory C:\PHP
 
-Install the following:
-- MySQL 5.5 (This will ask for credentials. Account: root Password: Password1.)
-- All simple versions of x86 PHP up until 7.3
+From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/25e360a3-11c2-4a13-a6c3-39ec44d96b2f)
+
+From the Installation Files, download and install VC_redist.x86.exe.
+
+From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+Password1
+
 
 <p>
 <img src="https://i.imgur.com/pqDM8rr.png" height="80%" width="80%" alt="8."/>
