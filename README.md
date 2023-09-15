@@ -24,12 +24,13 @@ osTicket is an open source ticketing system. Ticketing systems are used in Infor
 
 <h2>Installation Steps</h2>
 
-First we will be creating a Windows 10 virtual machine using Microsoft Azure. I have named my administrator account labuser using the with the password of Password123!. 
+First we will be creating a Windows 10 virtual machine using Microsoft Azure. 
 
 Once the virtual machine is created, we will be logging into the virtual machine using remote desktop protocol. 
 
 <p>
-![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/976eaa5a-fb5c-4dc3-851b-01544a0ec9dc)
+<img ![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/3b360b08-f567-4377-a0aa-b189d7101f63)
+
 </p>
 
 <h3>Step 1: Install Internet Information Services </h3>
