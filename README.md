@@ -24,31 +24,20 @@ osTicket is an open source ticketing system. Ticketing systems are used in Infor
 
 <h2>Installation Steps</h2>
 
-First we will be creating a Windows 10 virtual machine using Microsoft Azure. 
+We will be creating a Windows 10 virtual machine using Microsoft Azure. 
 
 Once the virtual machine is created, we will be logging into the virtual machine using remote desktop protocol. 
+
 
 ![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/20764c18-61e3-4273-98df-3fb35d2eaee2)
 
 
 <h3>Step 1: Install Internet Information Services </h3>
-First step is to install Internet Information Services (IIS) in Windows. Go to the Start menu and type in "Control Panel" and open it. Click "Uninstall a program" and check Internet Information Services. 
+We first need to install Internet Information Services (IIS) in Windows. Go to the Start menu and type in "Control Panel" and open it. Click "Programs" and then click "Turn Windows features on or off". Then click and enable check Internet Information Services. 
 
-<p>
-<img src="https://i.imgur.com/jthOoxy.png" height="80%" width="80%" alt="1."/>
-</p>
 
-<p>
-<img src="https://i.imgur.com/dSPCYFq.png" height="80%" width="80%" alt="2."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/46943e49-12a8-4389-bb25-307f8dd3879c)
 
-<p>
-<img src="https://i.imgur.com/qNjLQUM.png" height="80%" width="80%" alt="3."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/Gmqtcfp.png" height="80%" width="80%" alt="4."/>
-</p>
 
 <h3>Step 2: Install Web Platform Installer</h3> 
 Second step is install Web Platform Installer. 
