@@ -91,7 +91,7 @@ Reload IIS (Open IIS, Stop and Start the server)
 <h3>Step 3: Install osTicket</h3>
 The third step is to install osTicket. Go to the Google Drive mentioned previously and download the osTicket files. Once it is downloaded, open the osTicket folder. Copy the "Upload" folder. 
 
-Open up a new Windows Explorer Window, go to "This PC" on the left hand side, go to C:\, then "inetpub", then wwwroot. This can also be pasted in the Explorer bar "c:\inetpub\wwwroot". Paste the "Upload" folder into the wwwroot folder and rename it "osTicket."
+Open up a new Windows File Explorer Window, go to "This PC" on the left hand side, go to C:\, then "inetpub", then wwwroot. This can also be pasted in the Explorer bar "c:\inetpub\wwwroot". Paste the "Upload" folder into the wwwroot folder and rename it "osTicket."
 
 ![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/63cfc96a-aca3-4140-9379-9ecebbe0d05b)
 
@@ -110,98 +110,50 @@ Right click and enable the following:
 - php_intl.dll.
 - php_opcache.dll.
 
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/fe7b10a2-793f-4f8a-9e7f-a567e98de182)
 
 
 Once all those are installed, switch back to the osTicket Installer and refresh it. An extension should have changed from a red x to a green check. 
 
-<p>
-<img src="https://i.imgur.com/VeuTLZV.png" height="80%" width="80%" alt="26."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/5983ecde-be92-4c2c-a20c-89332014aa7a)
 
-Open up Windows Explorer and it should still be on the osTicket folder. Open up the "include" folder and scroll down to the file "ost-sampleconfig.php." Rename this file to "ost-config.php."
 
-If you're lost as to where to go in Windows Explorer, copy and paste this: "C:\inetpub\wwwroot\osTicket\include\".
+Open up Windows File Explorer and it should still be on the osTicket folder. Open up the "include" folder and scroll down to the file "ost-sampleconfig.php." Rename this file to "ost-config.php."
 
-<p>
-<img src="https://i.imgur.com/rlgHvnR.png" height="80%" width="80%" alt="27."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/b8eee491-c68d-441c-9180-cf9af8088a84)
 
-<p>
-<img src="https://i.imgur.com/yNnb593.png" height="80%" width="80%" alt="28."/>
-</p>
 
 Once the file has been renamed, right click on the file "ost-config.php" and click on "Properties." Then go to the "Security" tab then click the "Advanced" button. Then click "Disable inheritance." 
 
 Once this is done, add a new permission by typing "Everyone" in the box, and check "Full Control." Then click "OK" to exit out. 
 
-<p>
-<img src="https://i.imgur.com/wq4jAUp.png" height="80%" width="80%" alt="29."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/65b581fb-11a5-4693-aec2-6f578ede0906)
 
-<p>
-<img src="https://i.imgur.com/CBcLz7d.png" height="80%" width="80%" alt="30."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/85d5834a-2037-42d1-b655-09ebd8bd822e)
 
-<p>
-<img src="https://i.imgur.com/F831pQE.png" height="80%" width="80%" alt="31."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/bJzumr2.png" height="80%" width="80%" alt="32."/>
-</p>
 
 Once this is done, go back to the osTicket Installer. Start to fill out the setup page until you get to the database settings. 
 
-<p>
-<img src="https://i.imgur.com/lzl7E3x.png" height="80%" width="80%" alt="33."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/e7af411e-d9fb-4e55-8744-008b18fc01c1)
 
-<p>
-<img src="https://i.imgur.com/z729IeR.png" height="80%" width="80%" alt="34."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/a7rAHrb.png" height="80%" width="80%" alt="35."/>
-</p>
 
 <h3>Step 4: Install HeidiSQL</h3>
 The fourth and final step to installing osTicket is installing HeidiSQL. This will act as the database for the ticketing system. 
 
-Go back to the Google Drive with all the downloads and download HeidiSQL if it wasn't done yet. Once it's download it, open the installer and install the application. 
+Go back to the Google Drive and download HeidiSQL. Once it's downloaded, open the installer and install the application. 
 
-<p>
-<img src="https://i.imgur.com/zwKaeCu.png" height="80%" width="80%" alt="36."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/03cc488e-9441-4a22-bd01-e8cc0afb04b3)
 
-<p>
-<img src="https://i.imgur.com/u1wE5BZ.png" height="80%" width="80%" alt="37."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/c2afe9a5-82e1-48ab-b850-95cd4d45a210)
 
-In HeidiSQL, right click "Unamed" on the left side, then "Create new", then "Database."
+Create a new database in HeidiSQL called osTicket. Go back to osTicket installer setup page and fill out database settings.
 
-<p>
-<img src="https://i.imgur.com/pLOAM54.png" height="80%" width="80%" alt="38."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/oebqiTC.png" height="80%" width="80%" alt="39."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/HmQY5Mc.png" height="80%" width="80%" alt="40."/>
-</p>
-
-Once this is done in HeidiSQL, go back to the osTicket Installer and finish the installation.
-
-<p>
-<img src="https://i.imgur.com/50jaXKo.png" height="80%" width="80%" alt="41."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/N8cQoR7.png" height="80%" width="80%" alt="42."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/374d7314-b211-45e8-9732-25dd9d00e7fd)
 
 It should be installed with no issues. Before continuing, there are some files that need to be cleaned up. 
+
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/56cee33b-739c-43ca-81c0-d99d793ace78)
+
 
 Delete the "setup" in the osTicket folder. Copy and paste this into Windows Explorers if there is trouble finding it: "C:\inetpub\wwwroot\osTicket\setup".
 
