@@ -47,7 +47,7 @@ The second step is to PHP Manager with IIS and all other neccesary files to run 
 
 To start, open up these download files [here](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6).
 
-Download PHP Mananger and rewrite module from the google drive. Then open up the file in the Downloads folder and install the application. 
+Download PHP Mananger and rewrite module from the google drive. Then open up the file in the Downloads folder and install the applications. 
 
 <p></p>
   
@@ -65,82 +65,43 @@ From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zi
 
 From the Installation Files, download and install VC_redist.x86.exe.
 
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/249ccdf4-2055-470a-acdc-25d5b52e4448)
+
+
 From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 Typical Setup ->
 Launch Configuration Wizard (after install) ->
 Standard Configuration ->
 Password1
 
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/deaaa765-93de-438b-ab37-90f342642c88)
 
-<p>
-<img src="https://i.imgur.com/pqDM8rr.png" height="80%" width="80%" alt="8."/>
-</p>
 
-<p>
-<img src="https://i.imgur.com/ykZCSNB.png" height="80%" width="80%" alt="9."/>
-</p>
+Open IIS as an Admin
 
-Follow the installation process. The Installer will inherently fail installing some of the items. Find those items in the Google Drive folder that was mentioned previously.
+Register PHP from within IIS
 
-Install the following:
-- PHP Version 7.3.8.
-- Microsoft Visual C++ 2009 Redistributable Package.
-- PHP Manager 1.5.0 for IIS 10.
+Reload IIS (Open IIS, Stop and Start the server)
 
-<p>
-<img src="https://i.imgur.com/nQoI9GZ.png" height="80%" width="80%" alt="10."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/072c47f6-a701-4d41-9f53-63513ccbd393)
 
-<p>
-<img src="https://i.imgur.com/dI77INN.png" height="80%" width="80%" alt="11."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/3d0aad0d-4c3f-48b7-b0fb-f85a8d17be9f)
 
-<p>
-<img src="https://i.imgur.com/ht5QrzG.png" height="80%" width="80%" alt="12."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/PMiBxmc.png" height="80%" width="80%" alt="13."/>
-</p>
 
 <h3>Step 3: Install osTicket</h3>
-Third step is to install osTicket. Go to the Google Drive mentioned previously and download the osTicket files. Once it is downloaded, open the osTicket folder. Copy the "Upload" folder. 
+The third step is to install osTicket. Go to the Google Drive mentioned previously and download the osTicket files. Once it is downloaded, open the osTicket folder. Copy the "Upload" folder. 
 
 Open up a new Windows Explorer Window, go to "This PC" on the left hand side, go to C:\, then "inetpub", then wwwroot. This can also be pasted in the Explorer bar "c:\inetpub\wwwroot". Paste the "Upload" folder into the wwwroot folder and rename it "osTicket."
 
-<p>
-<img src="https://i.imgur.com/SmiOjs6.png" height="80%" width="80%" alt="14."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/63cfc96a-aca3-4140-9379-9ecebbe0d05b)
 
-<p>
-<img src="https://i.imgur.com/GAbKERu.png" height="80%" width="80%" alt="15."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/068c1b73-7002-46c5-8609-138ec7da8c12)
 
-<p>
-<img src="https://i.imgur.com/TjUdLgj.png" height="80%" width="80%" alt="16."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/1DCcmlK.png" height="80%" width="80%" alt="17."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/YaCtxHm.png" height="80%" width="80%" alt="18."/>
-</p>
 
 Once all this is completed, open up IIS from the start menu. On the left hand side of IIS, open up the directory (it should be the virtual machine name), then go to sites, then osTicket. Once osTicket has been opened in IIS, click "Browse *:80 (http)" on the right.
 
-<p>
-<img src="https://i.imgur.com/Kx4KiP5.png" height="80%" width="80%" alt="19."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/6e2909c7-aaa2-49b0-8c69-cc2fbed44aa0)
 
-<p>
-<img src="https://i.imgur.com/0hOzHJ9.png" height="80%" width="80%" alt="20."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/4eQjySx.png" height="80%" width="80%" alt="21."/>
-</p>
 
 Before going forward with the osTicket Installer, there must be some add-ons enabled first. Go back to IIS and click on "PHP Manager." Then click "Enable or disable an extension."
 
@@ -149,21 +110,7 @@ Right click and enable the following:
 - php_intl.dll.
 - php_opcache.dll.
 
-<p>
-<img src="https://i.imgur.com/mrRBeJU.png" height="80%" width="80%" alt="22."/>
-</p>
 
-<p>
-<img src="https://i.imgur.com/IAqrxAI.png" height="80%" width="80%" alt="23."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/N5CGt5v.png" height="80%" width="80%" alt="24."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/a4K62lK.png" height="80%" width="80%" alt="25."/>
-</p>
 
 Once all those are installed, switch back to the osTicket Installer and refresh it. An extension should have changed from a red x to a green check. 
 
