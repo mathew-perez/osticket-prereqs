@@ -18,7 +18,7 @@ osTicket is an open source ticketing system. Ticketing systems are used in Infor
 <h2>List of Prerequisites</h2>
 
 - Step 1: Install Internet Information Services 
-- Step 2: Install Web Platform Installer
+- Step 2: Install PHP Manager for IIS
 - Step 3: Install osTicket
 - Step 4: Install HeidiSQL
 
@@ -33,26 +33,28 @@ Once the virtual machine is created, we will be logging into the virtual machine
 
 
 <h3>Step 1: Install Internet Information Services </h3>
-We first need to install Internet Information Services (IIS) in Windows. Go to the Start menu and type in "Control Panel" and open it. Click "Programs" and then click "Turn Windows features on or off". Then click and enable check Internet Information Services. 
+The first step is to install Internet Information Services (IIS) in Windows. Go to the Start menu and type in "Control Panel" and open it. Click "Programs" and then click "Turn Windows features on or off". Then click and enable check Internet Information Services. 
 
+<p></p>
 
 ![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/46943e49-12a8-4389-bb25-307f8dd3879c)
 
 
-<h3>Step 2: Install Web Platform Installer</h3> 
-Second step is install Web Platform Installer. 
+<h3>Step 2: Install PHP Installer with IIS </h3> 
+The second step is to PHP Manager with IIS.
 
 <p></p>
 
-To start, open up these download files [here](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6).
+To start, open up these download files [here](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6).
 
-Once at the Google Drive where the download files are, download Web Platform Installer. Then open up the file in the Downloads folder and install the application. 
+Download Web Platform Installer from the google drive. Then open up the file in the Downloads folder and install the application. 
 
-<p>
-<img src="https://i.imgur.com/mKBPH6M.png" height="80%" width="80%" alt="5."/>
-</p>
+<p></p>
+  
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/393fbfbe-0716-4da9-9bd3-75c768ebcd24)
 
-<p>
+
+<p></p>
 <img src="https://i.imgur.com/TVHltiS.png" height="80%" width="80%" alt="6."/>
 </p>
 
