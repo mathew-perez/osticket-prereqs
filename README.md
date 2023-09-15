@@ -29,9 +29,11 @@ First we will be creating a Windows 10 virtual machine using Microsoft Azure.
 Once the virtual machine is created, we will be logging into the virtual machine using remote desktop protocol. 
 
 <p>
-<img ![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/3b360b08-f567-4377-a0aa-b189d7101f63)
-
+<img src=https://imgur.com/ndt60de" height="80%" width="80%" alt="1."/>
 </p>
+
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/20764c18-61e3-4273-98df-3fb35d2eaee2)
+
 
 <h3>Step 1: Install Internet Information Services </h3>
 First step is to install Internet Information Services (IIS) in Windows. Go to the Start menu and type in "Control Panel" and open it. Click "Uninstall a program" and check Internet Information Services. 
