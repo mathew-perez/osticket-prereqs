@@ -47,22 +47,16 @@ The second step is to PHP Manager with IIS.
 
 To start, open up these download files [here](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6).
 
-Download Web Platform Installer from the google drive. Then open up the file in the Downloads folder and install the application. 
+Download PHP Mananger and rewrite module from the google drive. Then open up the file in the Downloads folder and install the application. 
 
 <p></p>
   
 ![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/393fbfbe-0716-4da9-9bd3-75c768ebcd24)
 
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/af2e6fdd-5c54-4fcd-a2dd-0fab85f43697)
 
-<p></p>
-<img src="https://i.imgur.com/TVHltiS.png" height="80%" width="80%" alt="6."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/68f6d35a-67e8-4a60-92fe-74d1b7410277)
 
-Once installed, go to the Start menu, type it in, and open the application. 
-
-<p>
-<img src="https://i.imgur.com/Y9h8l05.png" height="80%" width="80%" alt="7."/>
-</p>
 
 Install the following:
 - MySQL 5.5 (This will ask for credentials. Account: root Password: Password1.)
