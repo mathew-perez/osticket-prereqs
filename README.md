@@ -154,34 +154,19 @@ It should be installed with no issues. Before continuing, there are some files t
 
 ![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/56cee33b-739c-43ca-81c0-d99d793ace78)
 
-
 Delete the "setup" in the osTicket folder. Copy and paste this into Windows Explorers if there is trouble finding it: "C:\inetpub\wwwroot\osTicket\setup".
 
-<p>
-<img src="https://i.imgur.com/WOe4EJf.png" height="80%" width="80%" alt="43."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/rcWIhMh.png" height="80%" width="80%" alt="43."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/b058eea7-e702-4bf7-9dc5-0487c077a7fb)
 
 Next, go to the file "ost-config.php", right click it and select Properties. Go back to Security, Advanced,then Permissions, then allow only read and read & execute. 
 
-<p>
-<img src="https://i.imgur.com/SgfA9ex.png" height="80%" width="80%" alt="44."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/G7mawZl.png" height="80%" width="80%" alt="45."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/df01bc37-42f5-4d6f-a121-ad7aaae7edaa)
 
 Congratulations! Now osTicket is installed. 
 
 The next two tutorials will show how to configure osTicket (such creating users, administrators, etc.) and how to work to tickets. 
 
-<p>
-<img src="https://i.imgur.com/LWC2RGB.jpg" height="80%" width="80%" alt="46."/>
-</p>
+![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/11cf1061-50e5-4fd4-9a53-b6484f2833c5)
 
 
 **REMEMBER TO DELETE YOUR RESOURCES ONCE YOU ARE DONE WITH THE LAB!**
