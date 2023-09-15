@@ -169,5 +169,5 @@ The next two tutorials will show how to configure osTicket (such creating users,
 ![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/11cf1061-50e5-4fd4-9a53-b6484f2833c5)
 
 
-**REMEMBER TO DELETE YOUR RESOURCES ONCE YOU ARE DONE WITH THE LAB!**
+REMEMBER TO DELETE YOUR RESOURCES IN MICROSOFT AZURE ONCE YOU ARE DONE WITH THE LAB
 
