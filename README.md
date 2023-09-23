@@ -165,7 +165,3 @@ Next, go to the file "ost-config.php", right click it and select Properties. Go 
 Congratulations! Now osTicket is installed. 
 
 ![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/11cf1061-50e5-4fd4-9a53-b6484f2833c5)
-
-
-REMEMBER TO DELETE YOUR RESOURCES IN MICROSOFT AZURE ONCE YOU ARE DONE WITH THE LAB
-
