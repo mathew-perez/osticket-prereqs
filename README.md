@@ -164,8 +164,6 @@ Next, go to the file "ost-config.php", right click it and select Properties. Go 
 
 Congratulations! Now osTicket is installed. 
 
-The next two tutorials will show how to configure osTicket (such creating users, administrators, etc.) and how to work to tickets. 
-
 ![image](https://github.com/mathew-perez/osticket-prereqs/assets/144407220/11cf1061-50e5-4fd4-9a53-b6484f2833c5)
 
 
